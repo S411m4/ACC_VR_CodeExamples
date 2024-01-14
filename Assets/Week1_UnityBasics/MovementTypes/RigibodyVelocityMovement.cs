@@ -17,7 +17,6 @@ public class RigibodyVelocityMovement : MonoBehaviour
     private void Start()
     {
         rb = this.GetComponent<Rigidbody>();
-        rb.velocity = Vector3.forward * Time.deltaTime * velocityMult;
-
+        rb.velocity = transform.forward * Time.deltaTime * velocityMult;
     }
 }

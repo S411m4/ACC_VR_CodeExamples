@@ -10,17 +10,8 @@ using UnityEngine;
 //</summary>
 public class TransformPositionMovement : MonoBehaviour
 {
-   private void Update()
-   {
-    transform.position += Vector3.forward * Time.deltaTime;
-   }
-
-   //to change relative position, use transform.localPosition
-
-    //vector3.forward(0,0,1)
-    //Vector3.back (0,0,-1)
-    //Vector3.up(0,1,0)
-    //down(0,-1,0)
-    //right(1, 0, 0)
-    //left (-1,0,0)
+    private void Update()
+    {
+        transform.position += transform.forward * Time.deltaTime;
+    } 
 }

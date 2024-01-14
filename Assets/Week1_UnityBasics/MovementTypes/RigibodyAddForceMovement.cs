@@ -19,9 +19,12 @@ public class RigibodyAddForceMovement : MonoBehaviour
 
     }
 
-    private void Update()
+    private void Start()
     {
-        rb.AddForce(Vector3.forward * forceAmount  * Time.deltaTime);
+        //transform.forward for rotation dependent movement
+        //Vector3.forward for rotation independent movement
+
+        rb.AddForce(transform.forward * forceAmount  * Time.deltaTime);
 
     }
 }

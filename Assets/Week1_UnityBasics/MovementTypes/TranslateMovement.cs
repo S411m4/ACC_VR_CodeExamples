@@ -12,13 +12,12 @@ public class TranslateMovement : MonoBehaviour
 {
    private void Update()
    {
+
     transform.Translate(Vector3.forward * Time.deltaTime);
-   
-     
-    
-    
-    //you can choose mode, whether:
-    //Space.self -> relative (moves according to local position, which is the default)
-    //Space.World  (moves according to global position)
-   }
+
+        //you can choose mode, whether:
+        //Space.self -> relative (moves according to local position, which is the default)
+        //Space.World  (moves according to global position)
+        
+    }
 }
