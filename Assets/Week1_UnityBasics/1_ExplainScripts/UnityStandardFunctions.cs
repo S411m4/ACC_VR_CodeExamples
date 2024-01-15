@@ -7,7 +7,14 @@ using UnityEngine;
 /// </summary>
 public class UnityStandardFunctions : MonoBehaviour
 {
-    //when gameObject is active in scene, called once
+    //called at start of scene , after Awake
+    //called only once at start of scene
+    private void Start()
+    {
+        Debug.Log("Start");
+    }
+
+    ////when gameObject is active in scene, called once
     private void OnEnable()
     {
         Debug.Log("OnEnable");
@@ -20,14 +27,6 @@ public class UnityStandardFunctions : MonoBehaviour
     {
 
         Debug.Log("Awake");
-    }
-
-    //called at start fo scene , after Awake
-    //called only once at start of scene
-    private void Start()
-    {
-
-        Debug.Log("Start");
     }
 
     //called as long as scene is running
@@ -56,14 +55,14 @@ public class UnityStandardFunctions : MonoBehaviour
         Debug.Log("LateUpdate");
     }
 
-    //called when gameobject is set to inactive, called once
+    ////called when gameobject is set to inactive, called once
     private void OnDisable()
     {
 
         Debug.Log("OnDisable");
     }
 
-    //called when gameobject is destroy, called once
+    ////called when gameobject is destroy, called once
     private void OnDestroy()
     {
 

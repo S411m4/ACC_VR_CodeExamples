@@ -14,6 +14,8 @@ public class RigibodyVelocityMovement : MonoBehaviour
 {
     private Rigidbody rb;
     [SerializeField] private float velocityMult = 200;
+
+
     private void Start()
     {
         rb = this.GetComponent<Rigidbody>();
