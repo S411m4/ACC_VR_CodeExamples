@@ -3,9 +3,7 @@ using UnityEngine.Events;
 
 public class UnityEvents_Example : MonoBehaviour
 {
-    [SerializeField] private UnityEvent hitEvent;
-
-    
+    public UnityEvent hitEvent;
 
 
     private void OnTriggerEnter()

@@ -1,0 +1,76 @@
+{
+    "name": "MyVRActions",
+    "maps": [
+        {
+            "name": "player",
+            "id": "31d120d8-06eb-48a8-b2d3-d0593b2f1c6c",
+            "actions": [
+                {
+                    "name": "switchDirectRayInteractor",
+                    "type": "Button",
+                    "id": "1b52c3cf-b0c8-495b-b45e-3bfb3cb891cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PrintTest",
+                    "type": "Button",
+                    "id": "7ad6d3a9-43cb-4e50-a54e-a29c4628125a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b18e5def-0de8-4195-ace8-b7458635db35",
+                    "path": "<XRSimulatedController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "switchDirectRayInteractor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb8d4f97-b023-4ed2-8433-b33f33401f55",
+                    "path": "<OculusTouchController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "switchDirectRayInteractor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aae5beaf-5799-4653-9d63-ce526af8abae",
+                    "path": "<OculusTouchController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrintTest",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12778f06-a259-4a73-91a2-467e441b7876",
+                    "path": "<XRSimulatedController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrintTest",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

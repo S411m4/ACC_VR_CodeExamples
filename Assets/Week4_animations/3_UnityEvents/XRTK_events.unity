@@ -591,7 +591,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8b3d0bea733c3f4eb8a84c3336346d7, type: 2}
+  - {fileID: 2100000, guid: 1f3599e5898fd2344bb450d90ec2f9d7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1490,8 +1490,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8a4b13abea43384d8a4d339ffc96fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverMaterial: {fileID: 2100000, guid: 892a7b8e084a4674bb1db5042c0116b5, type: 2}
-  placeHoldMaterial: {fileID: 3876542345217667742, guid: 2a3fc8cbcc1384445be28f5816145dc0, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 6d6a4b412a179c14fa4416238947dfbc, type: 2}
+  placeHoldMaterial: {fileID: 0}
 --- !u!1 &1058636256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,7 +1801,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8b3d0bea733c3f4eb8a84c3336346d7, type: 2}
+  - {fileID: 24990597270137616, guid: 2a3fc8cbcc1384445be28f5816145dc0, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2557,8 +2557,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8a4b13abea43384d8a4d339ffc96fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverMaterial: {fileID: 2100000, guid: 892a7b8e084a4674bb1db5042c0116b5, type: 2}
-  placeHoldMaterial: {fileID: 3876542345217667742, guid: 2a3fc8cbcc1384445be28f5816145dc0, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 6d6a4b412a179c14fa4416238947dfbc, type: 2}
+  placeHoldMaterial: {fileID: -2283599022185852528, guid: 2a3fc8cbcc1384445be28f5816145dc0, type: 3}
 --- !u!1 &1389582491
 GameObject:
   m_ObjectHideFlags: 0

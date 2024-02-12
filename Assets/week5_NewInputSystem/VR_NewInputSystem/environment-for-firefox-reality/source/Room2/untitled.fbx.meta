@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac8e02d797fc8df4388550e31925902c
+guid: 674d3fd3eb44f5f468c47b38ddfdd90c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,38 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: skeletonZombie_Material
-    second: {fileID: 2100000, guid: 9c18502fba18e5544873fae3e7b7b388, type: 2}
+      name: Background
+    second: {fileID: 2100000, guid: 94fd8386784a9554fb21db6784aa70e0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: skeletonZombie_Material1
-    second: {fileID: 2100000, guid: e939ec90170932e449a52d257f4b7fea, type: 2}
+      name: Room21
+    second: {fileID: 2100000, guid: b42f5341df7f9cf479784271af0e5397, type: 2}
   - first:
-      type: UnityEngine:Texture2D
+      type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: skeletonZombie_body_diffuse
-    second: {fileID: 2800000, guid: ff33b640f0074a24695f067df0d4e530, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: skeletonZombie_diffuse
-    second: {fileID: 2800000, guid: d89d995fcae16a645b27a9df17e397cc, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: skeletonZombie_glow
-    second: {fileID: 2800000, guid: 1d8e905afe35ee140acfff5dc437acb2, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: skeletonZombie_normal
-    second: {fileID: 2800000, guid: 205d7fa8bcc5c3741a24c1cf9a58c63d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: skeletonZombie_specular
-    second: {fileID: 2800000, guid: 08863c0c8cea12c4a96faee3dd9543ed, type: 3}
+      name: Room22
+    second: {fileID: 2100000, guid: d94b2664dec88a7438bdf26056ed0d36, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -66,36 +46,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Falling Back Death
-      takeName: mixamo.com
-      internalID: -203655887218126122
-      firstFrame: 0
-      lastFrame: 78
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []

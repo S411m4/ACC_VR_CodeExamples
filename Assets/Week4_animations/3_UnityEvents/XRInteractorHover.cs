@@ -18,6 +18,7 @@ public class XRInteractorHover : MonoBehaviour
     private void OnDestroy()
     {
         interactor.hoverEntered.RemoveListener(HoverEffect);
+        interactor.hoverExited.RemoveListener(RevertToNormal);
     }
 
     private void HoverEffect(HoverEnterEventArgs args)
